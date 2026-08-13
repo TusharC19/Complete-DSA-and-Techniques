@@ -12,7 +12,7 @@ public:
         int sqrtN = sqrt(n);
         
         // Iterate from 1 to sqrtN
-        for(int i=1; i <= sqrtN; i++) {
+        for(int i=1; i<= sqrtN; i++) {
             
             // If a divisor is found
             if(n % i == 0) {
